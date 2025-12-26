@@ -2,7 +2,7 @@ from django.test import RequestFactory
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from simple_drf_pagination.paginate import paginate
+from simple_drf_pagination import paginate
 
 
 class DummyView(APIView):

@@ -5,7 +5,7 @@ from rest_framework.pagination import (
     CursorPagination,
 )
 
-from simple_drf_pagination.paginate import paginate
+from simple_drf_pagination import paginate
 
 def test_default_page_pagination():
     Pagination = paginate(page_size=20)
